@@ -1,0 +1,42 @@
+body {
+	background-color: lightblue;
+}
+
+h1{
+
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+}
+
+
+button {
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	width: 80%;
+	height: 100px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 125px;
+	width: auto;
+	float: right;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
